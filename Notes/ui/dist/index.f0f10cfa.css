@@ -1,0 +1,71 @@
+.light .bg {
+  background-color: #faebd7;
+}
+
+.light .bg-other {
+  background-color: #fff8dc;
+}
+
+.light .header {
+  background-color: #ffb6c1;
+}
+
+.dark .bg {
+  background-color: #282a36;
+}
+
+.dark .bg-other {
+  background-color: #21222c;
+}
+
+.dark .header {
+  background-color: #17181f;
+}
+
+body {
+  flex-direction: row;
+  margin: 0;
+  display: flex;
+}
+
+#sidebar {
+  width: 4cm;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  width: calc(100% - 4cm);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#toolbar {
+  width: 100%;
+  height: 1cm;
+  justify-content: center;
+  display: flex;
+}
+
+#toolcontainer {
+  min-width: 6.7cm;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.tool {
+  width: 1.1cm;
+  height: 1.1cm;
+  cursor: pointer;
+  background-color: #ffffff1a;
+  transition: all 80ms;
+}
+
+.tool:hover, .tool.active {
+  width: 1.2cm;
+  height: 1.2cm;
+}
+
+/*# sourceMappingURL=index.f0f10cfa.css.map */
